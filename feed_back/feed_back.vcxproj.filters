@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="feed_back_main.cpp" />
+    <ClCompile Include="..\dawn_vk\dawn\vk\vk.cpp" />
+    <ClCompile Include="Dawn_base.cpp" />
+    <ClCompile Include="Shader_hard_code_Triangle.cpp">
+      <Filter>1.1_Shader_hard_code_Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_hard_code_Triangle_base.cpp">
+      <Filter>1.1_Shader_hard_code_Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer_Triangle_base.cpp">
+      <Filter>1.2_Buffer_Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer_Triangle.cpp">
+      <Filter>1.2_Buffer_Triangle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dawn_base.hpp" />
+    <ClInclude Include="Shader_hard_code_Triangle.hpp">
+      <Filter>1.1_Shader_hard_code_Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_hard_code_Triangle_base.hpp">
+      <Filter>1.1_Shader_hard_code_Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer_Triangle_base.hpp">
+      <Filter>1.2_Buffer_Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer_Triangle.hpp">
+      <Filter>1.2_Buffer_Triangle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1.1_Shader_hard_code_Triangle">
+      <UniqueIdentifier>{47460516-c62f-4d30-b8ef-31433c989407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.2_Buffer_Triangle">
+      <UniqueIdentifier>{4bc19a42-2b1a-4efc-9777-22517dd23358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\shader\triangle_by_shader.frag">
+      <Filter>1.1_Shader_hard_code_Triangle</Filter>
+    </None>
+    <None Include="resource\shader\triangle_by_shader.vert">
+      <Filter>1.1_Shader_hard_code_Triangle</Filter>
+    </None>
+    <None Include="resource\shader\triangle_with_buffer.frag">
+      <Filter>1.2_Buffer_Triangle</Filter>
+    </None>
+    <None Include="resource\shader\triangle_with_buffer.vert">
+      <Filter>1.2_Buffer_Triangle</Filter>
+    </None>
+  </ItemGroup>
+</Project>
